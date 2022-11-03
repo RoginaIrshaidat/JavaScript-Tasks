@@ -1,4 +1,4 @@
-let x = -1;
+let x = 100;
 
 if(x>0 && x<50)
 {
@@ -14,5 +14,5 @@ if(x>0 && x<50)
 }else if (x>=90 && x<=100){
     document.write("A+");
 }else{
-    document.write("No Mark")
+    document.write("Invalid Mark")
 }
