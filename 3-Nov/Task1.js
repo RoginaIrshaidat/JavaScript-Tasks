@@ -1,18 +1,19 @@
-let x = 100;
+let mark = -99;
 
-if(x>0 && x<50)
+if(mark>0 && mark<50)
 {
-    document.write("FAIL");
-}else if(x>=50 && x<60){
-    document.write("D");
-}else if(x>=60 && x<70){
-    document.write("C");
-}else if(x>=70 && x<80){
-    document.write("B");
-}else if(x>=80 && x<90){
-    document.write("A");
-}else if (x>=90 && x<=100){
-    document.write("A+");
+    document.writeln("FAIL");
+}else if(mark>=50 && mark<60){
+    document.writeln("D");
+}else if(mark>=60 && mark<70){
+    document.writeln("C");
+}else if(mark>=70 && mark<80){
+    document.writeln("B");
+}else if(mark>=80 && mark<90){
+    document.writeln("A");
+}else if (mark>=90 && mark<=100){
+    document.writeln("A+");
 }else{
-    document.write("Invalid Mark")
+    document.writeln("Invalid Mark")
 }
+document.writeln(newline)
