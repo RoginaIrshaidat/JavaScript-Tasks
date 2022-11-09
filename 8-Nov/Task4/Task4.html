@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Task</title>
+</head>
+<body>
+    
+    <label for="pass" >Password (min 6 characters):</label>
+    <input type="password" id="pass" placeholder="Password" onchange="minPass()">
+    <span id="shortPass"></span>
+    <br>
+    <br>
+    <label for="confPass">Confirm Password:</label>
+    <input type="password" id="confPass" placeholder="Confirm Password" onchange="confirmPass()">
+    <span id="notMatchPass"></span>
+    <br><br>
+    <br><br>
+    <input type="submit" value="Submit" style="display: none;" id="btn">
+  <script  type="text/javascript" src="Task4.js"></script>
+</body>
+</html>

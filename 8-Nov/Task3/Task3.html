@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Font Style Task</title>
+</head>
+<body>
+    <select  id="font" onchange="fontFamily()">
+        <option value="arial">Arial</option>
+        <option value="gillSans">Gill Sans</option>
+        <option value="impact">Impact</option>
+    </select>
+
+    <select  id="size" onchange="FontSize()">
+        <option value="small">12 Px</option>
+        <option value="medium">18 Px</option>
+        <option value="large">28 Px</option>
+    </select>
+
+    <input type="checkbox" id="italiccheck" onchange="italicStyle()">Italic
+    <input type="checkbox" id="boldcheck" onchange="boldStyle()">Bold
+    <input type="checkbox" id="underlinecheck" onchange="underLineStyle()">Underline
+    <br>
+    <br><br> 
+
+  <div style="border:1px solid black ;">
+    <p id="dogPara">
+        The quick brown fox jumps over the lazy dog
+    </p>
+  </div>
+  <script  type="text/javascript" src="Task3.js"></script>
+</body>
+</html>
