@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Local Storge Task</title>
+</head>
+<body>
+    <form>
+        <label for="name" >Name:</label>
+        <input type="text" id="name" placeholder="Your name">
+        <br>
+        <label for="age">Age:</label>
+        <input type="number" id="age" placeholder="Your age" >
+        <br>
+        <label for="brief" >Brief Description:</label>
+        <textarea id="brief" name="brief" placeholder="your brief" rows="4" cols="50"></textarea>
+        <br>
+        <label for="major" >Major and unviersity:</label>
+        <input type="text" id="major" placeholder="Your major and unviersity" >
+        <br>
+        <label> Programming Language :</label>
+        <input type="checkbox" id="html" name="html" value="html">
+        <label for="html"> Html</label>
+        <input type="checkbox" id="css" name="css" value="css">
+        <label for="css"> CSS</label>
+        <input type="checkbox" id="js" name="js" value="js">
+        <label for="js"> Java Script</label>
+        <input type="checkbox" id="asp.net" name="asp.net" value="asp.net">
+        <label for="asp.net"> Asp.Net</label><br>
+
+        <label> Gender :</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label><br>
+         
+    </form>
+    <button onclick="showCard()">Submit</button>
+    <!-- <input type="submit" value="Submit" >    -->
+    <div id="cardInfo" style="display: none;" >
+        <labe> Name :</labe>
+        <span id="fname"></span><br>
+        <labe> Age :</labe>
+        <span id="yAge"></span><br>
+        <labe> Brief Description:</labe>
+        <span id="dBrief"></span><br>
+        <labe> Major and unviersity:</labe>
+        <span id="mUnvier"></span><br>
+        <labe> Programming Language: </labe>
+        <span id="pLang"></span><br>
+        <labe> Gender:</labe>
+        <span id="gen"></span><br>
+    
+    </div>
+    
+    <script  type="text/javascript" src="local.js" ></script>
+
+</body>
+</html>

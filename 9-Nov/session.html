@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Session Storge Task</title>
+</head>
+<body>
+    <form>
+        <label for="subj" >Subject:</label>
+        <input type="text" id="subj" placeholder="Your Idea">
+        <br>
+        <label for="desc" > Description:</label>
+        <textarea id="desc" name="desc" placeholder="Description of your idea" rows="4" cols="50"></textarea>
+        <br>
+        <label> User Types :</label>
+        <input type="checkbox" id="client" name="client" value="client">
+        <label for="client"> Client</label>
+        <input type="checkbox" id="admain" name="admain" value="admain">
+        <label for="admain"> Admain</label>
+        <input type="checkbox" id="visitor" name="visitor" value="visitor">
+        <label for="visitor"> Visitor</label><br>
+        
+
+        <label> Technology used :</label>
+        <input type="checkbox" id="html" name="html" value="html">
+        <label for="html"> Html</label>
+        <input type="checkbox" id="css" name="css" value="css">
+        <label for="css"> CSS</label>
+        <input type="checkbox" id="js" name="js" value="js">
+        <label for="js"> Java Script</label>
+        <input type="checkbox" id="asp.net" name="asp.net" value="asp.net">
+        <label for="asp.net"> Asp.Net</label><br>
+         
+    </form>
+    <button onclick="showCard()">Submit</button>
+    <!-- <input type="submit" value="Submit" >    -->
+    <div id="cardInfo" style="display: none;" >
+        <labe> Subject :</labe>
+        <span id="sub"></span><br>
+        <labe> Description :</labe>
+        <span id="des"></span><br>
+        <labe> User Types:</labe>
+        <span id="uType"></span><br>
+        <labe> Technology used:</labe>
+        <span id="techno"></span><br>
+       
+    
+    </div>
+    
+    <script  type="text/javascript" src="session.js" ></script>
+
+</body>
+</html>
